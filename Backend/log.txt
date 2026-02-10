@@ -6,3 +6,4 @@ path is: /about?myname=John&lname=Doe, method is: GET
 path is: /about?myname=Chirag&lname=Dawra, method is: GET
 path is: /contact, method is: GET
 path is: /signup, method is: GET
+hi 
