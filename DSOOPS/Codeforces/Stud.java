@@ -11,6 +11,9 @@ class Student{
     @Override
     public String toString(){
         return "Student roll Number: "+this.rollNo;
+    }@Override
+    public boolean equals(Object obj){
+        return this.rollNo == ((Student)obj).rollNo;
     }
 }
 public class Stud{
