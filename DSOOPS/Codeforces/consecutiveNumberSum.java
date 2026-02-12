@@ -1,5 +1,5 @@
 class consecutiveNumberSum{
-    public int consecutiveNumberSum(int n){
+    public static int consecutiveNumberSum(int n){
         int count , res = 1;
         while(n%2==0) n/=2;
         for(int i=3;i*i<=n;i+=2){
@@ -11,5 +11,8 @@ class consecutiveNumberSum{
             res *=count+1;
         }
         return n==1 ? res:res*2;
+    }
+    public static void main(String[] args){
+        System.out.println(consecutiveNumberSum(5));
     }
 }
