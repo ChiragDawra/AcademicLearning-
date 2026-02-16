@@ -1,5 +1,8 @@
-console.log("1");
+console.log("1"); // synchronus task; 
 setTimeout(()=>{
-    console.log("2");
+    console.log("2"); //Asynchronus task;
 },1000);
-console.log("3");
+setTimeout(()=>{
+    console.log("4"); // Asynchronus task;
+},(500));
+console.log("3"); //Synchronus task;
